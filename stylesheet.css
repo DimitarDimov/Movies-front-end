@@ -1,0 +1,270 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: rgb(140, 0, 0);
+	font-family: "Courier New";
+}
+
+@supports (-ms-ime-align:auto) 
+    .box-genres {
+        height: 100px;
+	margin-top: 20px;
+	background-color: gray;
+	min-width: 700px;	
+	border-radius: 35px;
+	z-index: 0;
+    }
+    .row-space-genres{
+	height: 120px;
+
+}
+    .row-space-movies{
+	height: 320px;
+}
+
+
+
+.search-box, .empty {
+	margin-top: 25px;
+	margin-right: 15px;
+}
+
+.overview {
+	position: relative;
+	font-weight: bold;
+	
+	text-align: center;
+	bottom: 210px;
+}
+a {
+	color: transparent;
+}
+.movie_overview {
+	position:initial;
+	font-size: xx-large;
+	color: white;
+	text-align: center;
+	font-family: Bookman;
+	margin-bottom: 35px;
+	margin-top: 25px;
+}
+
+
+.header-text {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold
+}
+
+.header-name {
+	color: white;
+	text-align: right;
+	font-size: 2em;
+	font-weight: bold;
+	margin-right: 35px;
+	margin-top: 25px;
+	position: sticky ;
+}
+
+.header {
+	position: sticky;
+	height: 87px;
+	top: 0;
+	font-weight:bold;
+	z-index: 100;
+	background: rgb(190, 0, 0);
+}
+
+.logo-img {
+	margin-top: 13px;
+	margin-left: 31px;
+	width: 60px;
+}
+
+.logo-text{
+	color: white;
+	text-align: left;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.login-text {
+	color: white;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+}
+.logo-text-songs {
+	color: white;
+	font-size: 38px;
+	margin-top: 12px;
+	margin-left: 15px;
+	display: inline-block;
+}
+
+.box {	
+	height: 300px;
+	margin-top: 20px;
+	background-color: black;
+	min-width: 700px;	
+	position: sticky;
+	
+}
+.box-genres {	
+	height: 100px;
+	margin-top: 20px;
+	background-color: gray;
+	min-width: 700px;	
+	position: sticky;
+	border-radius: 35px;
+	z-index: 0;
+	
+}
+
+.box-name-genres {
+	
+	font-size: 30px;
+	font-weight:bold;
+	margin-top: 35px;
+	color: white;
+}
+
+.box-movies {
+	height: 300px;
+	margin-top: 20px;
+	background-color: gray;
+	min-width: 700px;
+	position: sticky;
+	border-radius: 25px;	
+
+}
+
+.movie-name {
+	text-align: right;
+	font-size: 22px;
+	font-weight:bold;
+	margin-top: 15px;
+	color: rgb(140, 0, 0);
+}	
+
+
+
+
+.tagline {
+	font-size: 2em;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
+	font-family: Impact;
+}
+
+.img-poster {
+        float: left;
+  	vertical-align: middle;
+	border-radius: 25px;
+	position: initial;
+	height: 650px;
+	margin-top: 10px;
+}
+
+.properties {
+	color: black;
+	margin-top: 8%;
+}
+
+ul {
+	float: center;
+	background: rgb(190, 0, 0);
+    	max-height: 650px;
+	border-radius: 25px;
+	font-family: Courier;
+	font-size: large;
+	width: 100%;
+	line-height: 2.5;
+	font-weight: bold;
+  	
+	
+}
+
+
+.index {
+	margin-top: 30px;
+	color: white;
+}
+
+.box-img {
+	margin-top: -10px;
+	margin-left: 22px;
+	border-radius: 5px;
+				
+}
+
+.box-name {
+	text-align: right;
+	font-size: 24px;
+	margin-top: 15px;
+	color: white;
+}
+
+
+.count {
+	bottom: -160px;
+	font-size: 20;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+.similar {
+	margin-top: 40px;
+}
+
+.home-form {
+	margin-top: 20%;
+	font-size: 26px;
+}
+
+.login-form, .register-form {
+	text-align: center;	
+	color: black;
+	margin-top: 10%;
+	font-size: 16px;
+}
+
+.btn-default-login {
+	float: left;
+	width: 150px;
+    	background-color: rgb(190, 0, 0);
+    	border-color: white;
+}
+
+.btn-default-register {
+	float: right;
+	width: 150px;
+	background-color: rgb(190, 0, 0);
+    	border-color: white;
+	
+}
+
+.login-text, .register-text {
+	color: white;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.btn-login, .btn-register {
+	float: center;
+	width: 150px;
+    	background-color: rgb(190, 0, 0);
+    	border-color: white;
+}
+.login-error, .register-error {
+	display: none;
+}
+
+$2a$10$O3Nek52B1pC.p2GnbOw5Pu/g3LWwsbpNiOacLA2yz85Ly86M972t.
+API: 6a6b135f174bebc7f821ea45772553b8

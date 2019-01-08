@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Movies</title>
+
+	<script type="text/javascript"
+	src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	
+	<script type="text/javascript"
+    src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	
+	<link rel="stylesheet" href="stylesheet.css">
+
+	<script src="index.js"></script>
+</head>
+<body>
+    <div class="header row">
+        <!-- header elements -->
+			<a href="index.html">
+				<img class="logo-img pull-left" src="http://thisisinfamous.com/wp-content/uploads/2014/04/movie-reel.gif">
+			</a>
+			
+			<h1 class="logo-text col-md-4 col-lg-4 col-sm-4 col-xs-4">Movies</h1>
+			<!-- header elements -->
+     </div>
+	<div class="container">
+		<div class="home-form">
+			<div class="col-md-4 col-lg-4 col-sm-4 col-xs-4 col-md-push-4 col-lg-push-4 col-sm-push-4 col-xs-push-4">
+				<form class="form-horizontal" onsubmit="event.preventDefault(); ">
+					<fieldset>
+						<legend class="login-text">Movies</legend>
+						
+						<div class="form-group">
+							<!-- Button -->
+							<div class="controls">
+								<button onclick="logIn()" class="btn-default-login btn-warning">Login</button>
+							</div>
+     
+                            <div class="controls">
+								<button onclick="register()" class="btn-default-register btn-warning">Register</button>
+							</div>
+						</div>						
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

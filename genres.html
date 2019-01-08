@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    
+	<title>Genres</title>
+
+	<script type="text/javascript"
+	src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+	<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+	<link rel="stylesheet" href="stylesheet.css">
+
+	<script src="genres.js"></script>
+
+</head>
+   
+ 
+<body>
+	<div class="header row">
+			
+			<!-- header elements -->
+			<a href="genres.html">
+				<img class="logo-img pull-left" src="http://thisisinfamous.com/wp-content/uploads/2014/04/movie-reel.gif">
+			</a>
+			
+			<h1 class="logo-text col-md-4 col-lg-4 col-sm-4 col-xs-4">Movies</h1>
+			
+			<h2 class="header-text col-md-3 col-lg-3 col-sm-3 col-xs-3">Genres</h2>
+			<!-- header elements -->
+
+
+			<!-- search box -->
+			<div class="search-box pull-right col-xs-3" role="search">
+				<div class="input-group">
+					
+					<input type="text" class="search-word form-control" placeholder="Search movie" name="q">
+					
+					<div class="input-group-btn">
+						<button class="search-btn btn btn-default" onclick="searchMovie()">
+							<i class="glyphicon glyphicon-search"></i>
+						</button>
+					</div>
+					
+				</div>
+			</div>
+			<!-- search box -->
+	</div>
+		 <br> </br>
+	<div class="container">
+		<div class="all-genres"></div>
+	</div>
+    
+</body>
+
+</html>
